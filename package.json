@@ -1,0 +1,24 @@
+{
+  "name": "teamspace-websocket",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app"
+  },
+  "dependencies": {
+    "amqplib": "^0.9.0",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "moment-timezone": "^0.5.34",
+    "morgan": "~1.9.1",
+    "reheat": "^1.0.0-beta.10",
+    "rethinkdb": "^2.4.2",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^4.4.1",
+    "socket.io-redis": "^6.1.1",
+    "thinky": "^2.3.9"
+  }
+}
